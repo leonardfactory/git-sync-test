@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A71AF25616D99427004B5EA2 /* LFPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71AF25516D99427004B5EA2 /* LFPageViewController.m */; };
+		A71AF25F16D9963E004B5EA2 /* LFProjection.m in Sources */ = {isa = PBXBuildFile; fileRef = A71AF25E16D9963E004B5EA2 /* LFProjection.m */; };
 		A7E240A516D8CA3300B0C48D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E240A416D8CA3300B0C48D /* UIKit.framework */; };
 		A7E240A716D8CA3300B0C48D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E240A616D8CA3300B0C48D /* Foundation.framework */; };
 		A7E240A916D8CA3300B0C48D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E240A816D8CA3300B0C48D /* CoreGraphics.framework */; };
@@ -24,6 +25,8 @@
 /* Begin PBXFileReference section */
 		A71AF25416D99427004B5EA2 /* LFPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFPageViewController.h; sourceTree = "<group>"; };
 		A71AF25516D99427004B5EA2 /* LFPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFPageViewController.m; sourceTree = "<group>"; };
+		A71AF25D16D9963E004B5EA2 /* LFProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFProjection.h; sourceTree = "<group>"; };
+		A71AF25E16D9963E004B5EA2 /* LFProjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFProjection.m; sourceTree = "<group>"; };
 		A7E240A016D8CA3300B0C48D /* GitSyncTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitSyncTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E240A416D8CA3300B0C48D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A7E240A616D8CA3300B0C48D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +68,15 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		A71AF25B16D9961C004B5EA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A71AF25D16D9963E004B5EA2 /* LFProjection.h */,
+				A71AF25E16D9963E004B5EA2 /* LFProjection.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A7E2409516D8CA3300B0C48D = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				A71AF25216D9940D004B5EA2 /* Controllers */,
+				A71AF25B16D9961C004B5EA2 /* Model */,
 				A7E240B316D8CA3300B0C48D /* LFAppDelegate.h */,
 				A7E240B416D8CA3300B0C48D /* LFAppDelegate.m */,
 				A7E240BC16D8CA3300B0C48D /* MainStoryboard.storyboard */,
@@ -191,6 +204,7 @@
 				A7E240B516D8CA3300B0C48D /* LFAppDelegate.m in Sources */,
 				A7E240C116D8CA3300B0C48D /* LFViewController.m in Sources */,
 				A71AF25616D99427004B5EA2 /* LFPageViewController.m in Sources */,
+				A71AF25F16D9963E004B5EA2 /* LFProjection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
